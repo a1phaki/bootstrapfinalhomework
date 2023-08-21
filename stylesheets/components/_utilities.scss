@@ -1,0 +1,24 @@
+.title{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    background-image: url('../../images/logo.png');
+    width: 119px;
+    height: 40px;
+}
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url('../images/lightpaperfibers.png');
+}
+.f-english{
+    font-family: 'Kalam', cursive;
+}
+.sticker{
+    position: fixed;
+    right:62px;
+    bottom: 0;
+}
+.top-nocover{
+    padding-top: 128px;
+}

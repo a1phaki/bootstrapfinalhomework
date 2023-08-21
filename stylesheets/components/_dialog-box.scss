@@ -1,0 +1,18 @@
+
+.dialog-box{
+    width: 100%;
+    border:#3a3a3a solid 2px;
+    position: relative;
+    background-color: $primary;
+    &::before{
+        content: '';
+        position: absolute;
+        border-top: 10px solid #3a3a3a;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-bottom: 0px solid transparent;
+        bottom: -10px;
+        left: 50px;
+    }
+    
+}

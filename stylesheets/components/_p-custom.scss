@@ -1,0 +1,8 @@
+.p-custom{
+    padding-left: 1rem;
+}
+@include media-breakpoint-up(sm){
+    .p-custom{
+        padding-left: 0;
+    }
+}
